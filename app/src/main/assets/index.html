@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; user-scalable=0;" />
+    <title>MobiWeather Help</title>
+    <!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+.checked {
+  color: orange;
+}
+</style>
+</head>
+<body style="background-color:#E6E6FA">
+<h1>MobiWeather</h1>
+
+<br/>
+<p id="app Desc">With the MobiWeather app, you can look up the weather by city name, location,
+    postal or zip code.Click on the cities and see city weather conditions. To save city click save button and to change city
+    click on Map  which is showing you city.</p>
+    </p>Selected city will show 5 days forecast for now. </p><p>Learn more about our app @.https://www.mobiquity.com/</p>
+<br/>
+<h2>Please Provide Feedback</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<input type="button" value="Give Feedback" onClick="openAndroidDialog()" />
+<br/>
+<br/><br/>
+<br/><br/>
+<br/>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="button" value="Thank You!" />
+
+<script language="javascript">
+   function showJSToast(toast) {
+       AndroidFunction.showToast(toast);
+   }
+
+   function openAndroidDialog() {
+       AndroidFunction.openAndroidDialog();
+   }
+
+   function callFromActivity(msg){
+ document.getElementById("mytext").innerHTML = msg;
+   }
+</script>
+
+</body>
+</html>

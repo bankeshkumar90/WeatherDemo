@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="day_circle_height">24dp</dimen>
+    <dimen name="day_circle_radius">120dp</dimen>
+    <dimen name="day_circle_stroke_width">1dp</dimen>
+    <dimen name="day_circle_width">24dp</dimen>
+    <dimen name="title_bar_button_height">36dp</dimen>
+    <dimen name="title_bar_button_width">36dp</dimen>
+
+    <string name="friday">FRI</string>
+    <string name="monday">MON</string>
+    <string name="saturday">SAT</string>
+    <string name="sunday">SUN</string>
+    <string name="thursday">THU</string>
+    <string name="tuesday">TUE</string>
+    <string name="wednesday">WED</string>
+    <declare-styleable name="ExpandIconView">
+        <attr format="boolean" name="eiv_roundedCorners"/>
+        <attr format="boolean" name="eiv_switchColor"/>
+        <attr format="color" name="eiv_color"/>
+        <attr format="color" name="eiv_colorMore"/>
+        <attr format="color" name="eiv_colorLess"/>
+        <attr format="color" name="eiv_colorIntermediate"/>
+        <attr format="integer" name="eiv_animationDuration"/>
+        <attr format="dimension" name="eiv_padding"/>
+    </declare-styleable>
+    <declare-styleable name="UICalendar">
+
+        <attr format="boolean" name="showWeek"/>
+        <attr format="boolean" name="hideArrows" value="true"/>
+        <attr format="string" name="datePattern" value="MMMM"/>
+
+        <attr format="enum" name="firstDayOfWeek">
+            <enum name="sunday" value="0"/>
+            <enum name="monday" value="1"/>
+            <enum name="tuesday" value="2"/>
+            <enum name="wednesday" value="3"/>
+            <enum name="thursday" value="4"/>
+            <enum name="friday" value="5"/>
+            <enum name="saturday" value="6"/>
+        </attr>
+
+        <attr format="enum" name="state">
+            <enum name="expanded" value="0"/>
+            <enum name="collapsed" value="1"/>
+        </attr>
+
+        <attr format="color" name="textColor"/>
+        <attr format="color" name="primaryColor"/>
+
+        <attr format="color" name="eventColor"/>
+
+
+        <attr format="color" name="todayItem_textColor"/>
+        <attr format="integer" name="todayItem_background"/>
+
+        <attr format="color" name="selectedItem_textColor"/>
+        <attr format="integer" name="selectedItem_background"/>
+
+        <attr format="integer" name="buttonLeft_drawable"/>
+        <attr format="integer" name="buttonRight_drawable"/>
+
+        <attr format="color" name="buttonLeft_drawableTintColor"/>
+        <attr format="color" name="buttonRight_drawableTintColor"/>
+
+        <attr format="color" name="expandIconColor"/>
+
+    </declare-styleable>
+</resources>

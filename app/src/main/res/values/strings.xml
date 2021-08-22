@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MobiWeather</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="geocode_value">City Name</string>
+    <string name="geocode">Geocode</string>
+    <string name="settings">Settings</string>
+    <string name="api_key">API Key</string>
+    <string name="maps_api_key">Google Maps API Key</string>
+    <string name="save">Save</string>
+</resources>
